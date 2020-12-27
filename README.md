@@ -3,7 +3,7 @@
 2. DataService.cs (Windows-служба, нужна с базой данных, располагается в папке ServiceLayer)
 3. XmlDbSerializer.cs (наш xml сериализатор, располагается в папке DataManager)
 4. AirLines.cs, Planes.cs, ServiceStaff.cs, Pilots.cs, Companies.cs (сущности базы данных, располагаются в папке DataModel)
-5. Base.png (Фотка диаграммы базы данных)
+5.  схемочка.jpg( диаграмма базы данных)
  
 При запуске службы(Метод OnStart):
 1. Берем значения полей классов из базы данных и ложим в экземпляры класса контейнера.
